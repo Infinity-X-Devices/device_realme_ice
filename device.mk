@@ -66,7 +66,8 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSettingsProviderResTarget.9SE \
     OPlusSettingsProviderResTarget.Q3s \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    OPlusWifiResTarget
 
 # Sensors
 PRODUCT_PACKAGES += \
