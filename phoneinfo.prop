@@ -1,0 +1,6 @@
+# Defintions For InfinityX
+ ro.infinity.soc=Qualcomm Snapdragon 778G
+ ro.infinity.battery=5000 mAh
+ ro.infinity.display=1080 x 2412, 144 Hz
+ ro.infinity.camera=48MP + 2MP + 2MP
+ ro.product.marketname=Realme 9SE 5G
