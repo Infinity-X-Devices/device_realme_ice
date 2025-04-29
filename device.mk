@@ -31,6 +31,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.oplus_ice.rc
 
+# Lineage Health
+$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/oplus_chg/battery/mmi_charging_enable)
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
@@ -45,7 +48,6 @@ PRODUCT_COPY_FILES += \
 #Display
  PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.sys.brightness.low.gamma=false
-
 
 # Display Config
 PRODUCT_COPY_FILES += \
